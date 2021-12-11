@@ -1,0 +1,48 @@
+/* pages/detail/detail.wxss */
+.detail {
+  height: 340rpx;
+  background: #f8f8f8;
+}
+.detail-left {
+  float: left;
+  margin: 22rpx 24rpx 0 38rpx;
+}
+.detail-imgs {
+  width: 200rpx;
+  height: 300rpx;
+  border-radius: 16rpx;
+}
+.detail-right {
+  padding: 12rpx;
+  margin-top: 22rpx;
+}
+.item-title {
+  margin: 18rpx 0;
+  font-size: 38rpx;
+  color: #2b333b;
+}
+.item-desc {
+  margin: 12rpx;
+  font-size: 28rpx;
+  color: #71777d;
+}
+.price {
+  color: #f01414;
+  font-size: 28rpx;
+}
+.content {
+  display: flex;
+  height: 154rpx;
+}
+.content-item {
+  flex: 1;
+  margin: 34rpx 0;
+  text-align: center;
+  font-size: 26rpx;
+  color: #71777d;
+}
+.content-item view {
+  margin: 32rpx;
+  color: #2b333b;
+  font-weight: bold;
+}

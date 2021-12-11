@@ -1,0 +1,8 @@
+/* pages/cart/cart.wxss */
+.cart {
+  display: flex;
+}
+.cart-title {
+  flex: 1;
+  text-align: center;
+}

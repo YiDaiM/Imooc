@@ -1,0 +1,3 @@
+<block wx:if="{{type === 'path'}}">
+  <text class="path-text">this is a path page</text>
+</block>

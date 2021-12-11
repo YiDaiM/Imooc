@@ -1,0 +1,3 @@
+<view class="person">
+  <text class="person-title">this is a person page</text>
+</view>

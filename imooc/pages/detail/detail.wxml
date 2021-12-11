@@ -1,0 +1,29 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+  <view class="detail-left">
+    <image class="detail-imgs" src="{{descImgUrl}}"></image>
+  </view>
+  <view class="detail-right">
+    <view class="item-title">{{title}}</view>
+    <view class="item-desc">{{desc}}</view>
+    <view class="price">￥{{price}}</view>
+  </view>
+</view>
+<view class="content">
+  <view class="content-item">
+    课程难度
+    <view>{{level}}</view>
+  </view>
+  <view class="content-item">
+    视频时长
+    <view>{{duration}}小时</view>
+  </view>
+  <view class="content-item">
+    学习人数
+    <view>{{sales}}人</view>
+  </view>
+  <view class="content-item">
+    课程评分
+    <view>{{score}}分</view>
+  </view>
+</view>

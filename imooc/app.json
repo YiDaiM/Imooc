@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/person",
+    "pages/hot/hot",
+    "pages/cart/cart",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "YiDaiMi",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#b7bbbf",
+    "selectedColor": "#2b333b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./resource/home.png",
+        "selectedIconPath": "./resource/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "./resource/cart.png",
+        "selectedIconPath": "./resource/cart-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "./resource/my.png",
+        "selectedIconPath": "./resource/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,3 @@
+<block wx:if="{{type ==='project'}}">
+  <text class="project-text">this is a project page</text>
+</block>
